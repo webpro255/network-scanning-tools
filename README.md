@@ -1,36 +1,19 @@
-# network-scanning-tools
-A collection of network scanning tools using nmap and scapy
+# Network Scanning Tools
+
+A comprehensive collection of network scanning tools utilizing nmap and scapy for security professionals and network administrators.
 
 ## Overview
-This repository contains a collection of scripts for scanning and analyzing network traffic using `nmap` and `scapy`.
+
+This repository contains scripts for scanning and analyzing network traffic, designed to leverage the capabilities of `nmap` and `scapy`, making it suitable for educational purposes or professional network audits.
 
 ## Tools Included
 
 ### Nmap Network Scanner
-- **Description**: Nmap is a powerful network discovery and security auditing tool.
-- **Usage**:
-  ```sh
-  nmap -A -T4 example.com
-- **Installation**:
-  ```sh
-  sudo apt-get install nmap
-- **Script**:
+
+**Description**: Nmap (Network Mapper) is a powerful network discovery and security auditing tool widely used in the IT industry.
+
+**Usage**:
 ```sh
-#!/bin/bash
-# Simple script to run an nmap scan
-
-echo "Running Nmap scan on $1"
-nmap -A -T4 $1
+nmap -A -T4 example.com
 
 
-
-
-
-
-
-
-
-
-
-
-   
