@@ -11,8 +11,10 @@ This repository contains a collection of scripts for scanning and analyzing netw
 - **Usage**:
   ```sh
   nmap -A -T4 example.com
+
   - **Installation**:
-  ```sh sudo apt-get install nmap
+  ```sh
+  sudo apt-get install nmap
 
 
 
