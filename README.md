@@ -62,6 +62,24 @@ if __name__ == "__main__":
     ping(sys.argv[1])
 ```
 
+## Setting Executable Permissions
+
+After cloning the repository, you might need to set executable permissions for the scripts to run them on your local machine or server. Here’s how you can set executable permissions:
+
+### For Unix-like Systems (Linux, macOS)
+
+Open your terminal and navigate to the script directory within the project:
+
+```bash
+cd path/to/your/cloned/repository/tools
+```
+Then, use the following command to make the scripts executable:
+
+```bash
+chmod +x nmap_scan.sh scapy_ping.py
+```
+This command changes the mode of the files to be executable, which is necessary to run them from the command line.
+
 ### Contributing 
 
 Feel free to contribute by adding new tools, improving existing scripts, or providing better documentation.
